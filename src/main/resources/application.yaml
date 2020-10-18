@@ -1,0 +1,24 @@
+server:
+  port: 8082
+
+spring:
+  rabbitmq:
+    host: ${RABBITMQ_HOST:toad.rmq.cloudamqp.com}
+    username: ${RABBITMQ_USERNAME:jyusvduh}
+    password: ${RABBITMQ_PASSWORD:YvcMyRokO6CnUNqpqyAweey4oBPydH2e}
+    virtual-host: ${RABBITMQ_VHOST:jyusvduh}
+    listener:
+      simple:
+        retry:
+          enabled: false
+
+amqp:
+  exchange: contas-exchange
+  queue: conta-corrente
+  routeKey: operacao
+
+beertech:
+  swagger:
+    baseUrl: ${SWAGGER_BASE_URL:localhost:${server.port}}
+    apiInfo: REST API for Bank Colorado Service Microservice
+    apiTitle: BeerTech Bank Relay Service
