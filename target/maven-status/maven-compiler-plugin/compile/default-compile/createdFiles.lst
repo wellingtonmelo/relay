@@ -1,0 +1,9 @@
+com/beertech/bancobeer/relay/BancoBeerRelayApplication.class
+com/beertech/bancobeer/relay/configurations/RabbitConfig.class
+com/beertech/bancobeer/relay/controllers/BancoBeerRelayController.class
+com/beertech/bancobeer/relay/vos/OperacaoMessage$OperacaoMessageBuilder.class
+com/beertech/bancobeer/relay/services/BancoBeerRelayService.class
+com/beertech/bancobeer/relay/configurations/SwaggerConfig.class
+com/beertech/bancobeer/relay/senders/BancoBeerMessageSender.class
+com/beertech/bancobeer/relay/vos/TransferenciaMessage.class
+com/beertech/bancobeer/relay/vos/OperacaoMessage.class
